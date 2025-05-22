@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import PopularExams from "./components/PopularExams";
+import GradeSelector from "./components/GradeSelector";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <Header />
         <HeroSection />
         <PopularExams/>
+        <GradeSelector/>
       </div>
     </main>
   );
