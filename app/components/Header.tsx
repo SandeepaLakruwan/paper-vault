@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Header() {
     return (
-        <header className="flex justify-between items-center p-4 shadow-lg bg-white text-black rounded-lg">
+        <header className="flex justify-between items-center p-4 shadow-xl bg-white text-black rounded-xl">
             <Image
                 src="/Logo.png"
                 alt="A descriptive alt text"

@@ -1,11 +1,15 @@
 import Image from "next/image";
 import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
 
 export default function Home() {
   return (
-    <main className="bg-light-pink min-h-screen text-black">
-
-      <Header/>
+    <main className="bg-white min-h-screen text-black">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 pt-4">
+        <Header />
+        <HeroSection />
+        {/* Add other sections here */}
+      </div>
     </main>
   );
 }
