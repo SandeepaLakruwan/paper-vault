@@ -17,6 +17,9 @@ const config: Config = {
         light_pink: "#FBC6C1",
         white: "#FFFAF9",
       },
+      fontFamily: {
+        anek: ['var(--font-anek)', 'sans-serif'],
+      },
     },
   },
   plugins: [],
