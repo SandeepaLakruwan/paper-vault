@@ -9,7 +9,6 @@ export default function PopularExams() {
             </div>
 
             <div className="flex justify-center gap-4">
-                {/* Grade 5 Scholarship */}
                 <div className="relative border p-6 rounded-xl shadow-md bg-white hover:shadow-lg transition text-dark-brown w-60">
                     <img
                         src="/book.png"
@@ -22,7 +21,6 @@ export default function PopularExams() {
                     </div>
                 </div>
 
-                {/* G.C.E Ordinary Level */}
                 <div className="relative border p-6 rounded-xl shadow-md bg-white hover:shadow-lg transition text-dark-brown w-60">
                     <img
                         src="/book-open.png"
@@ -35,7 +33,6 @@ export default function PopularExams() {
                     </div>
                 </div>
 
-                {/* G.C.E Advanced Level */}
                 <div className="relative border p-6 rounded-xl shadow-md bg-white hover:shadow-lg transition text-dark-brown w-60">
                     <img
                         src="/exam.png"

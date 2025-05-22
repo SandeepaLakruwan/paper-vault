@@ -5,7 +5,6 @@ export default function HeroSection() {
     return (
         <div className="relative flex font-anek font-normal text-lg flex-col items-center justify-center py-12 px-4 text-center overflow-hidden">
 
-            {/* Background Image Behind PASTPAPERS */}
             <Image
                 src={BookImage}
                 alt="Book Background"

@@ -6,14 +6,13 @@ import ArrowR from '../../public/arrowR.png';
 
 const GradeSelector = () => {
     const totalGrades = 13
-    const [centerIndex, setCenterIndex] = useState(12) // 0-based index for grade 13
+    const [centerIndex, setCenterIndex] = useState(12) 
 
     const getVisibleGrades = () => {
-        // Show 2 before and 2 after centerIndex
         const grades = []
         for (let i = -2; i <= 2; i++) {
             const index = (centerIndex + i + totalGrades) % totalGrades
-            grades.push(index + 1) // grade number from 1 to 13
+            grades.push(index + 1) 
         }
         return grades
     }
