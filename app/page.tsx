@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import PopularExams from "./components/PopularExams";
 import GradeSelector from "./components/GradeSelector";
+import RecentUpdates from "./components/RecentUpdates";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -12,7 +14,10 @@ export default function Home() {
         <HeroSection />
         <PopularExams/>
         <GradeSelector/>
+        <RecentUpdates/>
+        
       </div>
+      <Footer/>
     </main>
   );
 }

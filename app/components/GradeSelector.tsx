@@ -29,7 +29,7 @@ const GradeSelector = () => {
     const sizes = ['small', 'medium', 'large', 'medium', 'small']
 
     return (
-        <div>
+        <div className='font-anek'>
             <div className="flex items-center justify-center my-6">
                 <div className="w-1/12 border-t-2 border-dark_brown mx-4"></div>
                 <h2 className="text-2xl text-dark_brown text-center">Select Grade</h2>

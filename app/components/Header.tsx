@@ -20,10 +20,21 @@ export default function Header() {
                     <option>Results</option>
                 </select>
                 <a href="#">About Us</a>
-                </nav>
+            </nav>
             <div>
-                <button className="bg-orange text-white rounded-full px-4 py-1 hover:bg-dark-brown transition">Log in</button>
-            
+                <button className="flex items-center overflow-hidden rounded-full shadow transition hover:opacity-90">
+                    {/* Left Circle with sun.png */}
+                    <div className="bg-dark_brown w-10 h-10 flex items-center justify-center">
+                        <img src="/sun.png" alt="Sun" className="w-5 h-5" />
+                    </div>
+
+                    {/* Right Rectangular Part with moon.png */}
+                    <div className="bg-light_pink w-10 h-10 flex items-center justify-center">
+                        <img src="/moon.png" alt="Moon" className="w-5 h-5" />
+                    </div>
+                </button>
+
+
             </div>
         </header>
     );
